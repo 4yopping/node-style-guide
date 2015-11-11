@@ -153,19 +153,13 @@ should also be descriptive.
 *Right:*
 
 ```js
-var schema = new Schema({
-	isUser:[Boolean],
-	ofNumber: [Number],
-});
+my_file.jpg
 ```
 
 *Wrong:*
 
 ```js
-var schema = new Schema({
-	is_user:[Boolean],
-	of_number: [Number],
-});
+myFile.jpg
 ```
 
 
@@ -173,8 +167,8 @@ var schema = new Schema({
 
 ## ES5
 Use this file for code in ES5
-[View config file](./jshintrc)
+[View config file](./.jshintrc)
 
 ## ES6 / ES2015
 Use this file for code in ES6 / ES2015
-[View config file](./eslintrc)
+[View config file](./.eslintrc)
