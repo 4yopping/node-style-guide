@@ -122,6 +122,24 @@ File.fullPermissions = 0777;
 [const]: https://developer.mozilla.org/en/JavaScript/Reference/Statements/const
 
 
+
+### Use snake_case for files names
+
+Files names should use `snake_case`.  They
+should also be descriptive.
+
+*Right:*
+
+```js
+my_file.jpg
+```
+
+*Wrong:*
+
+```js
+myFile.jpg
+```
+
 ### Use lowerCamelCase for db (schema) properties
 
 DB properties names should use `lowerCamelCase`.  They
@@ -145,21 +163,21 @@ var schema = new Schema({
 });
 ```
 
-### Use snake_case for files names
 
-Files names should use `snake_case`.  They
-should also be descriptive.
+### Use singular Model names
+
+Use `singular` names for db models.
 
 *Right:*
 
 ```js
-my_file.jpg
+mongoose.model('Media', mediaSchema)
 ```
 
 *Wrong:*
 
 ```js
-myFile.jpg
+mongoose.model('medias', mediaSchema)
 ```
 
 
@@ -172,3 +190,9 @@ Use this file for code in ES5
 ## ES6 / ES2015
 Use this file for code in ES6 / ES2015
 [View config file](./.eslintrc)
+
+
+# Editor config
+
+Plugins and docs [Editor config](http://editorconfig.org/)
+[View config file](./.editorconfig)
