@@ -3,6 +3,7 @@
   "curly": true,
   "eqeqeq": true,
   "esnext": true,
+  "asi": true,
   "eqnull": true,
   "predef": [],
   "globalstrict": true,
